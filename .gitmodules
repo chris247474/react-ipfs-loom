@@ -1,0 +1,3 @@
+[submodule "dappchain"]
+	path = dappchain
+	url = https://github.com/ctverceles/dappchain
