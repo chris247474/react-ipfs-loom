@@ -1,3 +1,6 @@
 [submodule "dappchain"]
 	path = dappchain
 	url = https://github.com/ctverceles/dappchain
+[submodule "react-web"]
+	path = react-web
+	url = https://github.com/ctverceles/react-web
