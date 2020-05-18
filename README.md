@@ -19,10 +19,10 @@ yarn or npm
 
 ## Install
 
-First, let's clone this repository. Open a terminal, `cd` into the directory where you store your projects, and run the following command:
+First, let's clone this repository and initialise the submodules. Open a terminal, `cd` into the directory where you store your projects, and run the following command (or use Gitkraken which auto initialises submodules for you):
 
 ```bash
-git clone https://github.com/ctverceles/react-ipfs-loom
+git clone --recursive https://bitbucket.org/bigmochi/react-ipfs-loom
 ```
 
 Next, `cd` into `react-ipfs-loom`:
