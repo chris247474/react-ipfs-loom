@@ -1,0 +1,19 @@
+{
+  "name": "react-ipfs-loom",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm-run-all --parallel install:web install:chain",
+    "start": "./scripts/startAll",
+    "start:web": "cd react-web && yarn start",
+    "start:chain": "cd dappchain && yarn loom:reset",
+    "fix": "ynpm-run-all --parallel fix:web fix:chain",
+    "fix:web": "cd react-web && rm -rf node_modules && yarn",
+    "fix:chain": "cd dappchain && rm -rf node_modules && yarn",
+    "install:web": "cd react-web && yarn",
+    "install:chain": "cd dappchain && yarn"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
